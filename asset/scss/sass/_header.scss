@@ -1,0 +1,41 @@
+.section-header{
+    position: relative;
+    background-image: url('../image/background1.png');
+    padding-top: 120px;
+    padding-bottom: 20px;
+    height: 500px;
+
+    .img-box{
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        left: -10px;
+
+        img{
+            width: 100%;
+        }
+    }
+    h1{
+        @include heading1;
+        text-align: right;
+
+        span{
+            color: var(--color-orange);
+        }
+    }
+    h2{
+        color: var(--color-orange);
+        text-align: right;
+    }
+    .logo{
+        font-family: var(--font-fancy);
+        color: var(--color-white);
+        font-size: var(--font-size-learge);
+        margin-top: 50px;
+        margin-right: 20px;
+    }
+    p{
+        @include pera;
+        text-align: right;
+    }
+}    

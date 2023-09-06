@@ -1,0 +1,25 @@
+.section-enjoy{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 5px dotted var(--color-orange);
+
+    h1{
+        @include heading1;
+        color: var(--color-orange);
+        text-align: center;
+    }
+    p{
+        @include pera;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .img-box{
+        width: 100%;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+        }
+    }
+}

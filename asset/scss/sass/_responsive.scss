@@ -1,0 +1,138 @@
+@media only screen and (min-width: 280px){
+    .sticky{
+        width: 100% !important;
+        margin-left: 0%;
+    }
+
+}
+@media only screen and (min-width: 320px){
+    .section-header{
+        height: 600px;
+    }
+
+}
+@media only screen and (min-width: 360px){
+
+
+}
+@media only screen and (min-width: 375px){
+    .section-header{
+        height: 650px;
+    }
+
+}
+@media only screen and (min-width: 411px){
+    .section-header{
+        height: 700px;
+    }
+    .section-footer{
+        .list2{
+            margin-left: 30%;
+            width: 20%;
+        }
+    }
+
+}
+
+@media only screen and (min-width: 414px){
+
+
+}
+@media only screen and (min-width: 540px){
+    .section-header{
+        height: 850px;
+    }
+    .section-quality{
+        .img-box{
+            width: 50%;
+        }
+    }
+
+}
+@media only screen and (min-width: 768px){
+    .sticky{
+        width: 90% !important;
+        margin-left: 5%;
+    }
+    .section-header{
+        height: 550px;
+    }
+    .section-quality{
+        .img-box{
+            width: 50%;
+        }
+    }
+    .section-footer{
+        .list1{
+            display: flex;
+            width: 70%;
+            margin-left: 20%;
+    
+            li{
+                margin-left: 10px;
+            }
+        }
+        .list2{
+            margin-left: 40%;
+            width: 20%;
+        }
+    }
+
+}
+@media only screen and (min-width: 1024px){
+    .section-header{
+        height: 600px;
+    }
+
+}
+@media only screen and (min-width: 1025px){
+
+    .section-header{
+        height: 850px;
+    }
+    .section-about{
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+    }
+    .section-quality{
+        .img-box{
+            width: 30%;
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+    }
+    .section-book{
+        button{
+            width: 60%;
+            margin-left: 20%;
+        }
+    }
+    .section-footer{
+        .list1{
+            width: 60%;
+            margin-left: 25%;
+
+            li{
+                margin-left: 30px;
+            }
+        }
+        .list2{
+            margin-left: 42%;
+            width: 20%;
+        }
+    }
+}

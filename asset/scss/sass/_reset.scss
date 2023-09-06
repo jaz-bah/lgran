@@ -1,0 +1,27 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    cursor: default;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: var(--bg-color-light);
+    color: var(--color-white);
+    position: static;
+}
+input,button:focus{
+    outline: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--color-white);
+}
+a:hover{
+    text-decoration: none;
+    color: var(--color-white);
+}

@@ -1,0 +1,45 @@
+.section-gallery{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .row{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .img-box{
+        width: 100%;
+        height: 100%;
+
+        img{
+            margin-top: 20px;
+            width: 100%;
+            transition: 0.4s;
+
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+
+        .img1{
+            height: 300px;
+        }
+        .img2{
+            height: 320px;
+        }
+
+        .img3{
+            height: 200px;
+        }
+        .img4{
+            height: 200px;
+        }
+        .img5{
+            height: 200px;
+        }
+        .img6{
+            height: 200px;
+        }
+        .img7{
+            height: 420px;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.section-quality{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+
+    .img-box{
+        width: 100%;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    h1{
+        @include heading1;
+        text-align: right;
+
+        i{
+            color: var(--color-orange);
+        }
+    }
+    p{
+        @include pera;
+        text-align: right;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    h2{
+        @include heading2;
+        text-align: right;
+
+        span{
+            color: var(--color-orange);
+            font-size: var(--font-size-normal);
+        }
+    }
+}
